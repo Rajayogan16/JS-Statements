@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS conditions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    ::placeholder{
+        text-align: center;
+    }
+</style>
+<body>
+<div class="container ">
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+          <div class="numbers border text-center p-5 bg-warning text-light">
+            <H1 class="h1">For Loop Examples</H1>
+            <h5 class="h5 my-3">Sum of Numbers Using For Loop</h5>
+            <input type="number"  id="num" placeholder="Enter the Total Number you want to Sum" class="form-control">
+                  <div class="my-2">
+                      <button class="btn btn-success my-2" onclick="natural()">Natural</button>    
+                      <button class="btn btn-success my-2" onclick="even()">Even</button>
+                      <button class="btn btn-success my-2" onclick="odd()">Odd</button>
+                 </div>
+            <p class="bg-warning text-dark my-2" id="p1"></p>
+            <h5 class="h5 text-capitalize">Get all the prime number below the number entered</h5>
+            <input type="number"  id="prime" placeholder="Enter the Number">
+            <button class="btn btn-success my-2 d-block mx-auto" onclick="primefactor()">Get</button>
+            <p class="bg-warning text-dark" id="p7"></p>
+          </div>
+          <div class=" while border text-center p-5 bg-success text-light">
+            <h1 class="h1 mb-5">While Loop Examples</h1>
+            <h5>Enter the three Digit Armstrong Number</h5>
+            <input type="number" id="first">
+            <button class="btn btn-warning d-block my-2 mx-auto" onclick="armstr()">Check</button>
+            <p class="bg-success text-light" id="p2"></p>
+            <h5>Enter A Number To Find its Factorial</h5>
+            <input type="number" id="fact">
+            <button class="btn btn-warning d-block my-2 mx-auto" onclick="fact()">Factorial</button>
+            <p class="bg-success text-light" id="p3"></p>
+            <h5>Enter A Range To Find its Fibonacci series</h5>
+            <input type="number" id="fibo">
+            <button class="btn btn-warning d-block my-2 mx-auto" onclick="fibo()">Check</button>
+            <p class="bg-success text-light" id="p4"></p> 
+            <h5>Check whether the Number is Palindrome or Not</h5>
+            <input type="text"  id="palin">
+            <button class="btn btn-warning my-4 d-block mx-auto" onclick="palin()">Check </button>
+            <p class="bg-success text-light" id="p5"></p>
+          </div>
+          <div class="switch border text-center p-5 bg-warning text-light">
+               <h1 class="h1">Switch Case Example</h1>
+               <h4 class="h4">Bank Account</h4>
+               <h5 class="h5 text-success">Initial Balance is 0</h5>
+               <input type="number"  id="credit" placeholder="Upload">
+               <input type="number" id="debit" placeholder="Withdraw">
+               <button class="btn btn-success my-4 d-block mx-auto" onclick="balance()">Check Balance</button>
+               <p class="bg-warning text-dark" id="p6"></p>
+          </div>
+          
+        </div>
+    </div>  
+</div>
+    
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="script.js"></script>         
+</body>
+</html>
